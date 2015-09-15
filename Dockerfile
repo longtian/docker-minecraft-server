@@ -4,4 +4,4 @@ RUN wget -q https://s3.amazonaws.com/Minecraft.Download/versions/1.8.8/minecraft
 COPY . /data
 WORKDIR /data
 EXPOSE 25565
-java -jar /minecraft_server.1.8.8.jar
+CMD java -jar /minecraft_server.1.8.8.jar
